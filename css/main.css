@@ -1,7 +1,6 @@
 /* Place CSS styles here */
 .header {
 	display: flex;
-	position: absolute;
 	top: 20px;
 	left: 20px;
 	right: 20px;
