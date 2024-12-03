@@ -1,1 +1,1 @@
-document.querySelector('.scroll-container').style.scrollBehavior = 'smooth';
+document.querySelector('.scroll').style.scrollBehavior = 'smooth';
