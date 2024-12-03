@@ -1,4 +1,6 @@
 /* Place CSS styles here */
+
+/* First and last name with the hamburger menu */
 .header {
 	display: flex;
 	top: 20px;
@@ -30,6 +32,7 @@
 	background-color: cornflowerblue; 
   }
 
+/* hamburger menu settings */
 .off-screen-menu{
 	background-color:black ;
 	height: 100vh;
@@ -145,7 +148,7 @@ li{
     right: 25px
   }
 
-
+/* Footer */
 
 footer {
     background-color: #0e0e0e;
@@ -155,3 +158,68 @@ footer {
     margin-top: 20px;
   }
   
+
+  .pro1{
+
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+	body {
+	margin: 0;
+	padding: 0;
+	overflow-x: auto;
+	display: flex;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+  }
+  
+  .section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100vw;
+	padding: 20px;
+	box-sizing: border-box;
+	border-right: 1px solid #ccc;
+  }
+  
+  .section h1 {
+	margin: 0 0 10px;
+  }
+  
+  .section h2 {
+	margin: 0 0 10px;
+  }
+
+  .section h3 {
+	margin: 0 0 10px;
+  }
+
+  .content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+  }
+  
+  .content p {
+	max-width: 50%;
+	margin: 0;
+  }
+  
+  .content img {
+	max-width: 300px;
+	height: auto;
+	display: block;
+  }
+   
+   
