@@ -354,3 +354,18 @@ footer {
 	color: #555;
 	margin-bottom: 300px;
   }
+
+.about-carousel img {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin-top: 50px;
+  }
+
+  .about-carousel .slick-next{
+	right: -35px
+  }
+
+  .about-carousel .slick-prev{
+	left: 20px;
+  }
