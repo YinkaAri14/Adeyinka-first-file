@@ -369,3 +369,65 @@ footer {
   .about-carousel .slick-prev{
 	left: 20px;
   }
+
+
+  * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  *:focus {
+	outline: 0;
+  }
+  
+  html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+	  font-family: sans-serif;
+  }
+  
+  .container {
+	  display: flex;
+	  left: 0;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+  }
+  
+  .container section {
+	  display: flex;
+	  height: auto;
+	  min-width: 100%;
+  }
+  
+  .container section .img-box {
+	  height: 100vh;
+	  min-width: 50%;
+	  position: relative;
+  }
+  
+  .container section .img-box img {
+	  height: 100%;
+	  left: 0;
+	  object-fit: cover;
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+  }
+  
+  .container section .story-box {
+	  padding: 100px 60px;
+  }
+  
+  .container section .story-box h2 {
+	  margin: 0 0 20px;
+	  font-size: 48px;
+  }
+  
+  .container section .story-box p {
+	  font-size: 18px;
+	  text-align: justify;
+  }
